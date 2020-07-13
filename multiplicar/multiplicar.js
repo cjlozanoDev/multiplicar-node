@@ -4,9 +4,9 @@ const colors = require('colors')
 const listarTabla = (base, limite = 10) => {
   console.log('==================='.green)
   console.log(`tabla de ${ base }`.green)
-  console.log('==================='.green)
+  console.log('=================='.green)
 
-  
+
   for(let i = 1; i <= limite; i += 1) {
     console.log(`${ base } * ${ i } = ${ base * i}`)
   }
